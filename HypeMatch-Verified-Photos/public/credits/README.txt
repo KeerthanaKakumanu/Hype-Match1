@@ -1,1 +1,0 @@
-Photo credits and license terms are documented in README.md. The build script downloads source images and generates one credit text file per photo under this directory.
