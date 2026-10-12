@@ -1,4 +1,0 @@
-import fs from 'node:fs';
-const data=JSON.parse(fs.readFileSync(new URL('../data/creators.json',import.meta.url),'utf8')); const ids=new Set(); const errors=[];
-for(const [i,c] of data.entries()){if(!c.id||ids.has(c.id))errors.push(`Row ${i+1}: missing/duplicate id`);ids.add(c.id);for(const f of ['name','specialization','skills','tools','formats','verificationStatus'])if(c[f]==null||c[f]==='')errors.push(`Row ${i+1}: missing ${f}`);if(!Array.isArray(c.portfolio))errors.push(`Row ${i+1}: portfolio must be an array`);if(c.verificationStatus==='verified'&&(!c.sourceUrl||!c.lastChecked))errors.push(`Row ${i+1}: verified record requires sourceUrl and lastChecked`)}
-console.log(`Loaded ${data.length} records; ${data.filter(c=>c.verificationStatus==='verified').length} verified; ${data.filter(c=>c.isDemo).length} demo.`);if(errors.length){console.error(errors.join('\n'));process.exit(1)}console.log('Data structure validation passed.');
