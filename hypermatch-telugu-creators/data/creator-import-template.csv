@@ -1,0 +1,2 @@
+id,name,handle,bio,specialization,skills,tools,contentTypes,formats,languages,region,workflow,commercialUse,profileUrl,sourceUrl,lastChecked,verificationStatus,isDemo
+real-creator-001,Public creator name,@publichandle,Sourced factual bio,AI Filmmaking,storyboarding|AI video,Tool/model name,AI film,16:9|9:16,Telugu|English,"Hyderabad, Telangana",Creator-confirmed workflow,Not independently verified,https://example.com/profile,https://example.com/source,YYYY-MM-DD,unverified,false
