@@ -1,0 +1,2 @@
+id,name,handle,bio,specialization,region,platform,languages,niche,audienceSize,profileUrl,sourceUrl,sourceName,lastChecked,verificationStatus,verificationNote,isDemo,kind,color
+example-id,Public creator name,Public handle,Factual sourced bio,Comedy,Hyderabad Telangana,YouTube,Telugu,Comedy|Culture,Not collected,https://official-profile.example/,https://source.example/,Source name,YYYY-MM-DD,needs-review,Verify identity and metrics before publication,false,creator,#ff642e

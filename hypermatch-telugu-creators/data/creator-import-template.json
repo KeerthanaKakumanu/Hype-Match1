@@ -1,0 +1,23 @@
+[
+  {
+    "id": "unique-id-from-admin",
+    "name": "Public creator or channel name",
+    "handle": "Public handle if source confirms it",
+    "bio": "Factual short description supported by the source",
+    "specialization": "Main niche",
+    "region": "Only if the source supports it",
+    "platform": "YouTube",
+    "languages": ["Telugu"],
+    "niche": ["Comedy", "Culture"],
+    "audienceSize": "Not collected",
+    "profileUrl": "https://official-public-profile.example/",
+    "sourceUrl": "https://official-source-page.example/",
+    "sourceName": "Name of source and what it establishes",
+    "lastChecked": "YYYY-MM-DD",
+    "verificationStatus": "needs-review",
+    "verificationNote": "State what is supported and what still needs checking.",
+    "isDemo": false,
+    "kind": "creator",
+    "color": "#ff642e"
+  }
+]
